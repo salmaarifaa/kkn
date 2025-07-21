@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Index - Instant Bootstrap Template</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/menyusur.png" rel="icon">
+  <link href="assets/img/menyusur.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!--Leaflet-->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" /> 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" ></script>
+  <script src="jogjageo.js"></script>
+  <style>
+    #map {
+    width: 100%;
+    height: 700px;
+    }
+  </style>
+
+  <!-- =======================================================
+  * Template Name: Instant
+  * Template URL: https://bootstrapmade.com/newtemplate-bootstrap-website-template/
+  * Updated: Jul 07 2025 with Bootstrap v5.3.7
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <div style="display: flex; justify-content: left; gap: 0px; margin-top: 0px;">
+           <img src="assets/img/ugmputih.png" alt="Gambar 1">
+            <img src="assets/img/kkn.png" alt="Gambar 2">
+            <img src="assets/img/menyusur.png" alt="Gambar 3">
+          </div>
+
+        <h1 class="sitename">Dadahup</h1>
+      </a>
+
+      <!-- <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav> -->
+
+      <a class="btn-getstarted" href="index.html#about">KKN-PPM UGM 2025 Menyusur Kapuas</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container">
+        <div class="hero-wrapper">
+
+          <div class="hero-main-content text-center">
+            <h1 class="hero-title" data-aos="zoom-in" data-aos-delay="200">
+              Persebaran Satwa Liar di Desa Dadahup<br>
+            </h1>
+
+            <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+              Peta ini menyajikan titik-titik persebaran satwa liar yang ditemukan selama kegiatan 
+              observasi KKN di Desa Dadahup. Data dikumpulkan berdasarkan pengamatan langsung dan 
+              informasi dari masyarakat setempat, mencakup beragam jenis burung, herpetofauna, dan mamalia. 
+              Peta ini bertujuan untuk mengenalkan kekayaan hayati desa dan mendorong kesadaran pelestarian 
+              lingkungan sekitar.
+            </p>
+
+            <p data-aos="fade-up" data-aos-delay="300" style="font-size: 15px; text-align: left; color: color-mix(in srgb, var(--default-color), transparent 20%)">Klik pada ikon satwa untuk melihat nama spesies dan informasi singkat.</p>
+
+            <div class="hero-image-showcase" data-aos="fade-up" data-aos-delay="500">
+              <div class="image-wrapper">
+                <div id="map"></div>
+                  <script>
+                    var map = L.map('map',{
+                    center: [-2.656260, 114.601110],
+                    zoom: 15
+                    });
+                    var osm = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                      attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+                    }).addTo(map);
+
+                    var esri = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}',
+                      {attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye',}
+                    );
+
+                    var carto = L.tileLayer(
+                      'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+                      { attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
+                        subdomains: 'abcd',
+                        maxZoom: 19
+                      }
+                    );
+
+                    var baseMaps = {
+                      "OpenStreetMap": osm,
+                      "ESRI World Imagery": esri,
+                      "Carto Light": carto
+                    };
+
+                    var bajingkelapa = L.marker([-2.662604818, 114.5993648])
+                      .bindPopup('<b>Bajing Kelapa</b><br> <img src="assets/img/satwa/bajing kelapa.png" width="200px"> <a href="#bajingkelapa" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var bentetkelabu1 = L.marker([-2.665121114,	114.6046448])
+                      .bindPopup('<b>Bentet Kelabu</b><br> <img src="assets/img/satwa/bentetkelabu.JPG" width="200px"> <a href="#bentetkelabu" >Selengkapnya disini</a> ')
+                      .addTo(map);
+
+                    var bentetkelabu2 = L.marker([-2.662467283,	114.5992086])
+                      .bindPopup('<b>Bentet Kelabu</b><br> <img src="assets/img/satwa/bentetkelabu.JPG" width="200px"> <a href="#bentetkelabu" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var cabaijawa = L.marker([-2.662519166,	114.5988657])
+                      .bindPopup('<b>Cabai Jawa</b><br> <img src="assets/img/satwa/cabai jawa.jpg" width="200px"> <a href="#cabaijawa" >Selengkapnya disini</a>')
+                      .addTo(map);
+                    
+                    var cekakaksungai1 = L.marker([-2.653283196,	114.6030259])
+                      .bindPopup('<b>Cekakak Sungai</b><br>  <img src="assets/img/satwa/cekakak sungai.jpg" width="200px"> <a href="#cekakaksungai" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var cekakaksungai2 = L.marker([-2.663389616,	114.6005696])
+                      .bindPopup('<b>Cekakak Sungai</b><br>  <img src="assets/img/satwa/cekakak sungai.jpg" width="200px"> <a href="#cekakaksungai" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var cucakkutilang1 = L.marker([-2.665213438,	114.6044818])
+                      .bindPopup('<b>Cucak Kutilang</b><br> <img src="assets/img/satwa/Cucak kutilang.png" width="200px"> <a href="#cucakkutilang" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var cucakkutilang2  = L.marker([-2.662787311,	114.5995513])
+                      .bindPopup('<b>Cucak Kutilang</b><br> <img src="assets/img/satwa/Cucak kutilang.png" width="200px"> <a href="#cucakkutilang" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var cucakkutilang3 = L.marker([-2.653071236,	114.6009563])
+                      .bindPopup('<b>Cucak Kutilang</b><br> <img src="assets/img/satwa/Cucak kutilang.png" width="200px"> <a href="#cucakkutilang" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var burunggereja = L.marker([-2.664639741,	114.6043298])
+                      .bindPopup('<b>Burung Gereja</b><br> <img src="assets/img/satwa/burung gereja.jpg" width="200px"> <a href="#gereja" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var kerakkerbau = L.marker([-2.657807627,	114.6004019])
+                      .bindPopup('<b>Kerak Kerbau</b><br> <img src="kerak kerbau.jpg" width="200px"> <a href="#kerakkerbau" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var merbahcerukcuk1 = L.marker([-2.662491869,	114.5989551])
+                      .bindPopup('<b>Merbah Cerukcuk</b><br> <img src="assets/img/satwa/merbahcerukcuk.JPG" width="200px"> <a href="#merbahcerukcuk" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var merbahcerukcuk2 = L.marker([-2.662707812,	114.5989241])
+                      .bindPopup('<b>Merbah Cerukcuk</b><br> <img src="assets/img/satwa/merbahcerukcuk.JPG" width="200px"> <a href="#merbahcerukcuk" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var rajaudang = L.marker([-2.652908192,	114.6028655])
+                      .bindPopup('<b>Raja Udang sp.</b><br> <img src="assets/img/satwa/burung raja udang.jpg" width="200px"> <a href="#rajaudang" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var burunggereja2 = L.marker([-2.652984028,	114.6009682])
+                      .bindPopup('<b>Burung Gereja</b><br> <img src="assets/img/satwa/burung gereja.jpg" width="200px"> <a href="#gereja" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var cabaibungaapi = L.marker([-2.652884751,	114.6010507])
+                      .bindPopup('<b>Cabai Bunga Api</b><br> <img src="assets/img/satwa/Cabai Bunga Api.jpg" width="200px"> <a href="#cabaibungaapi" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var kerakkerbau2 = L.marker([-2.658854995,	114.6007256])
+                      .bindPopup('<b>Kerak Kerbau</b><br> <img src="assets/img/satwa/kerak kerbau.jpg" width="200px"> <a href="#kerakkerbau" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var madusriganti = L.marker([-2.65306773,	114.6008675])
+                      .bindPopup('<b>Madu Sriganti</b><br> <img src="assets/img/satwa/Madu Sriganti.jpg" width="200px"> <a href="#madusriganti" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var merbahcerukcuk3 = L.marker([-2.652936001,	114.6011231])
+                      .bindPopup('<b>Merbah Cerukcuk</b><br> <img src="assets/img/satwa/merbahcerukcuk.JPG" width="200px"> <a href="#merbahcerukcuk" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var waletlinchi = L.marker([-2.659131167,	114.6006101])
+                      .bindPopup('<b>Walet Linchi</b><br> <img src="assets/img/satwa/walet linchi.jpg" width="200px"> <a href="#waletlinchi" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var burunggereja3 = L.marker([-2.659105849,	114.6005527])
+                      .bindPopup('<b>Burung Gereja</b><br> <img src="assets/img/satwa/burung gereja.jpg" width="200px"> <a href="#gereja" >Selengkapnya disiniv</a>')
+                      .addTo(map);
+
+                    var kerakkerbau3 = L.marker([-2.653041184,	114.6007677])
+                      .bindPopup('<b>Kerak Kerbau</b><br> <img src="assets/img/satwa/kerak kerbau.jpg" width="200px"> <a href="#kerakkerbau" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var mep = L.marker([-2.665036043,	114.6044719])
+                      .bindPopup('<b>Monyet Ekor Panjang</b><br> <img src="assets/img/satwa/monyet ekor panjang.jpeg" width="200px"> <a href="#mep" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var kerakkerbau4 = L.marker([-2.662329177,	114.5990449])
+                      .bindPopup('<b>Kerak Kerbau</b><br> <img src="assets/img/satwa/kerak kerbau.jpg" width="200px"> <a href="#kerakkerbau" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var remetuklaut = L.marker([-2.665272679,	114.6046037])
+                      .bindPopup('<b>Remetuk Laut</b><br> <img src="assets/img/satwa/remutuklaut.JPG" width="200px"> <a href="#remetuklaut" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var kadal = L.marker([-2.65306355,	114.6007916])
+                      .bindPopup('<b>Kadal</b><br> <img src="assets/img/satwa/kadal.jpg" width="200px"> <a href="#kadal" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var kurakura = L.marker([-2.657229126,	114.6016561])
+                      .bindPopup('<b>Kura-kura</b><br> <img src="assets/img/satwa/kurakura" width="200px"> <a href="#kurakura" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var kurakura2 = L.marker([-2.653116935,	114.6013041])
+                      .bindPopup('<b>Kura-kura</b><br> <img src="assets/img/satwa/kurakura.png" width="200px"> <a href="#kurakura" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var babihutan = L.marker([-2.664137726,	114.5983531])
+                      .bindPopup('<b>Babi Hutan</b><br> <img src="assets/img/satwa/babi hutan.jpg" width="200px"> <a href="#babihutan" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var ular = L.marker([-2.65756017,	114.6006097])
+                      .bindPopup('<b>Ular</b><br> <img src="assets/img/satwa/ular.jpg" width="200px"> <a href="#ular" >Selengkapnya disini</a>')
+                      .addTo(map);
+
+                    var satwa = L.layerGroup([bajingkelapa, bentetkelabu1, bentetkelabu2, cabaijawa,
+                        cekakaksungai1, cekakaksungai2, cucakkutilang1, cucakkutilang2, cucakkutilang3,
+                        burunggereja, kerakkerbau, merbahcerukcuk1, merbahcerukcuk2, rajaudang,
+                        burunggereja2, cabaibungaapi, kerakkerbau2, madusriganti, merbahcerukcuk3,
+                        waletlinchi, burunggereja3, kerakkerbau3, mep, kerakkerbau4, remetuklaut, kadal, kurakura,
+                        kurakura2, babihutan, ular]);
+                    var overlayMaps = {"Lokasi Satwa": satwa};
+
+                    L.control.layers(baseMaps, overlayMaps, {
+                      collapsed: true, // <-- biar langsung terlihat
+                      position: 'topright'
+                    }).addTo(map);
+
+                    L.geoJSON(jogjageojson,{
+                      style: function(feature) {
+                        switch (feature.properties.KABUPATEN) {
+                          case 'Gunung Kidul': return {color: "#ff9900"};
+                          case 'Sleman': return {color: "red"};
+                          case 'Bantul': return {color: "blue"};
+                          case 'Yogyakarta': return {color: "green"};
+                          case 'Kulon Progo': return {color: "magenta"};
+                        }
+                      },
+                        onEachFeature: function (feature, layer) {
+                          layer.bindPopup(
+                            'Kecamatan ' +
+                            '<strong>' +
+                            feature.properties.KECAMATAN +
+                            '</strong>'
+                          );
+                      }
+                    }).addTo(map);
+
+                  </script>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section><!-- /Hero Section -->
+
+    </section><!-- /About Section -->
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <!-- Section Satwa -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Satwa Liar</h2><br>
+        <p>Satwa liar memiliki peran yang sangat penting bagi konservasi hutan dan keseimbangan ekologi ekosistem. 
+          Satwa liar merupakan suatu bio-indikator lingkungan, seperti halnya pengendali populasi jenis lain, 
+          sumber makanan bagi makhluk hidup lain, komponen siklus nutrisi, penyebar biji secara alami, 
+          penyerbukan keanekaragaman flora, pemupukan dan penggemburan hutan secara alami. <br>
+          <br>Yuk, kenali lebih dekat satwa liar yang hidup berdampingan dengan kita.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="bajingkelapa">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Bajing Kelapa</h2>
+                <p>Bajing kelapa adalah mamalia kecil dari keluarga tupai yang aktif di siang hari. 
+                  Ia sering ditemukan di area perkebunan dan pekarangan, terutama di pohon kelapa, 
+                  tempat ia mencari makan berupa buah, bunga, dan serangga kecil. 
+                  Bajing ini lincah memanjat dan melompat antar pohon</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/bajing kelapa.png" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="bentetkelabu">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Bentet Kelabu</h2>
+                <p>Seekor burung pemangsa kecil yang memiliki paruh kuat dan tajam. 
+                  Warnanya didominasi abu-abu dengan bagian bawah lebih pucat. 
+                  Ia dikenal karena kebiasaannya menusuk mangsa seperti serangga atau kadal kecil di ranting tajam atau duri.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/bentetkelabu.JPG" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="cabaijawa">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Cabai Jawa</h2>
+                <p>Cabai jawa merupakan burung kecil berwarna mencolok, 
+                  dengan kombinasi merah terang dan hitam. Hidupnya banyak di semak 
+                  belukar dan pinggir hutan, serta aktif mencari serangga kecil. 
+                  Suaranya tajam dan sering terdengar di pagi hari.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/cabai jawa.jpg" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="cekakaksungai">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Cekakak Sungai</h2>
+                <p>Cekakak sungai adalah salah satu jenis burung raja-udang yang 
+                  berukuran besar dengan warna biru terang dan dada cokelat. 
+                  Ia sering terlihat bertengger di dahan dekat sungai atau rawa, 
+                  mengintai mangsa seperti ikan kecil, katak, atau serangga air.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/cekakak sungai.jpg" alt="Features" class="img-fluid" width="700px">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="cucakkutilang">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Cucak Kutilang</h2>
+                <p>Cucak kutilang adalah burung kicauan yang sangat umum di pekarangan dan kebun. 
+                  Tubuhnya berwarna abu-abu dengan dada kekuningan dan jambul khas di kepala. 
+                  Suaranya nyaring dan sering terdengar bersahut-sahutan di pagi dan sore hari.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/Cucak kutilang.png" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="gereja">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Burung Gereja</h2>
+                <p>Seekor burung pipit kecil yang hidup berkelompok di lingkungan manusia, seperti atap rumah dan pasar. 
+                  Warna tubuhnya cokelat dengan garis-garis hitam, dan mereka mudah dikenali dari kebiasaannya 
+                  mencari remah-remah makanan di sekitar manusia.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/burung gereja.jpg" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="kerakkerbau">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Kerak Kerbau</h2>
+                <p>Kerak kerbau merupakan burung berwarna kehitaman atau kecokelatan yang sering mengikuti 
+                  ternak besar seperti kerbau. Ia senang bertengger di punggung hewan ternak sambil memakan kutu dan serangga. 
+                  Jadi, selain dapat tumpangan gratis, 
+                  dia juga bantu jaga kebersihan teman besarnya.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/kerak kerbau.jpg" alt="Features" class="img-fluid" width="700px">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="merbahcerukcuk">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Merbah Cerukcuk</h2>
+                <p>Merbah cerukcuk adalah burung kecil dengan suara keras dan variatif, sering 
+                  dijumpai di semak dan kebun. Suaranya bisa bikin orang salah kira ada banyak burung 
+                  padahal dia cuma satu. Warna tubuhnya cokelat zaitun dengan bagian bawah keputihan. 
+                  Ia hidup berpasangan atau berkelompok kecil, dan aktif sepanjang hari.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/merbahcerukcuk.JPG" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="rajaudang">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Raja Udang sp.</h2>
+                <p>Raja udang sp. mengacu pada jenis burung dari keluarga Alcedinidae yang terkenal 
+                  dengan warna cerah seperti biru, oranye, dan putih. burung ini hanya butuh sepersekian 
+                  detik untuk menyelam dan menangkap ikan kecil. Cantik tapi mematikan di dunia perairan dangkal.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/burung raja udang.jpg" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="cabaibungaapi">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Cabai Bunga Api</h2>
+                <p>Cabai bunga api adalah salah satu jenis burung cabai-cabaian dengan warna merah menyala mirip api. 
+                  Ukurannya sangat kecil dan lincah, tetapi ia sangat fotogenik. Burung mungil ini suka menjelajah bunga dan ranting, menjadikan semak belukar sebagai panggungnya terutama saat mencari serangga atau nektar.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/Cabai Bunga Api.jpg" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="madusriganti">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Madu Sriganti</h2>
+                <p>Madu sriganti merupakan burung penghisap nektar berukuran kecil dengan warna mengkilap 
+                  seperti biru kehijauan di bagian kepala dan dada. Ia suka menyeruput nektar sambil bersenandung. 
+                  Sering terlihat di taman atau kebun yang berbunga, menjadikannya penyerbuk alami yang elegan.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/Madu Sriganti.jpg" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="waletlinchi">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Walet Linchi</h2>
+                <p>Walet linchi adalah jenis walet berukuran kecil yang terbang cepat dengan suara khas “cip-cip” 
+                  yang menggema di dalam di gua atau bangunan. Burung walet terbang dengan cepat dan jarang terlihat 
+                  hinggap seperti ninja malam di langit desa. Ia menggunakan ekolokasi untuk navigasi, 
+                  dan sarangnya yang terbuat dari liur itu bernilai tinggi di pasaran sehingga sering 
+                  dimanfaatkan dalam industri sarang burung walet. </p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/walet linchi.jpg" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="mep">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Monyet Ekor Panjang</h2>
+                <p>Primata cerdik dan lincah ini hidup berkelompok dan aktif di pepohonan. 
+                  Ekor panjangnya membantu menjaga keseimbangan saat bergelantungan. Mereka suka bermain, 
+                  mencari buah, bahkan kadang mencuri makanan. Meski tampak lucu, mereka bisa bersikap 
+                  waspada jika merasa terganggu.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/monyet ekor panjang.jpeg" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="remetuklaut">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Remetuk Laut</h2>
+                <p>Remetuk laut adalah burung kecil penghuni pesisir atau hutan mangrove. 
+                  Ia memiliki suara tajam dan berulang, dan meskipun sulit dilihat karena sifatnya 
+                  yang pemalu, keberadaannya mudah dikenali dari suaranya.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/remutuklaut.JPG" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="kadal">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Kadal</h2>
+                <p>Kadal adalah reptil kecil berdarah dingin yang hidup di berbagai 
+                  habitat seperti kebun, padang rumput, hingga hutan. Sebagai penguasa sunyi 
+                  di bawah semak dan bebatuan, ia memakan serangga 
+                  dan dikenal mampu melepaskan ekornya saat merasa terancam.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/kadal.jpg" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="kurakura">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Kura-kura</h2>
+                <p>Hewan lambat tapi tangguh ini membawa rumahnya ke mana pun ia pergi. 
+                  Kura-kura hidup di darat, menyukai tempat lembap, dan memakan tumbuhan. 
+                  Saat merasa terancam, ia akan masuk ke dalam tempurungnya untuk berlindung.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/kurakura.png" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <div class="feature-item" data-aos="flip-up" data-aos-delay="250" id="babihutan">
+          <div class="row align-items-center mb-5">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="150">
+              <div class="intro-content">
+                <h2 style="color: #e59d02;">Babi Hutan</h2>
+                <p>Penggembur tanah alami yang kuat dan tahan banting. 
+                  Babi hutan hidup di hutan dan semak belukar, mencari makan 
+                  dengan mengaduk tanah untuk menemukan akar, umbi, dan serangga. 
+                  Tubuhnya kekar, berlari cepat, dan biasanya aktif di malam hari.</p>
+              </div>
+            </div>
+            <div class="col-lg-6" data-aos="fade-left" data-aos-delay="200">
+              <div class="intro-image">
+                <img src="assets/img/satwa/babi hutan.jpg" alt="Features" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+      </div>
+
+    </section><!-- /Features Section -->
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div style="display: flex; justify-content: left; gap: 16px; margin-top: 20px;">
+            <img src="assets/img/ugmputih.png" alt="Gambar 1" width="50px">
+            <img src="assets/img/kkn.png" alt="Gambar 2" width="50px">
+            <img src="assets/img/menyusur.png" alt="Gambar 3" width="50px">
+          </div>
+          <div class="col-lg-12 col-md-12 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Sub-unit Dadahup <br> KKN-PPM UGM Menyusur Kapuas 2025</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>Jalan Muris Ismail</p>
+              <p>Desa Dadahup, Kecamatan Dadahup, Kabupaten Kapuas, Kalimantan Tengah </p>
+              <p>73593</p><br>
+              <p><strong>Email:</strong> <span>kknmenyusurkapuas@gmail.com</span></p><br>
+            </div>
+          </div>
+
+         
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright <strong><span>Menyusur Kapuas 2025</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            <!-- All the links in the footer should remain intact. -->
+            <!-- You can delete the links only if you purchased the pro version. -->
+            <!-- Licensing information: https://bootstrapmade.com/license/ -->
+            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          </div>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <a href="mailto:kknmenyusurkapuas@gmail.com"><i class="bi bi-envelope-fill"></i></a>
+          <a href="https://www.instagram.com/menyusurkapuas/"><i class="bi bi-instagram"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
